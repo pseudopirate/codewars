@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { parseMolecule } from './molecule_to_atoms'
+import { parseMolecule } from '.'
 
 describe('parseMolecule', function() {
     it('should parse water', () => {
